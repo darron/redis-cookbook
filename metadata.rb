@@ -1,3 +1,4 @@
+# encoding: utf-8
 name             'redis'
 maintainer       'Darron Froese'
 maintainer_email 'darron@froese.org'
