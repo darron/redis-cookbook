@@ -27,7 +27,7 @@ Installs, enables and starts Redis.
 Testing
 -------
 
-[![Build Status](https://travis-ci.org/mlafeldt/skeleton-cookbook.png?branch=master)](https://travis-ci.org/mlafeldt/skeleton-cookbook)
+[![Build Status](https://travis-ci.org/darron/redis-cookbook.png?branch=master)](https://travis-ci.org/darron/redis-cookbook)
 
 The cookbook provides the following Rake tasks for testing:
 
