@@ -27,3 +27,7 @@ apt_repository 'redis' do
 end
 
 package 'redis-server'
+
+service 'redis-server' do
+  action [:enable, :start]
+end

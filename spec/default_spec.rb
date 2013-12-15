@@ -8,4 +8,12 @@ describe 'redis::default' do
   it 'installs redis-server' do
     expect(chef_run).to install_package('redis-server')
   end
+
+  it 'enables the redis service' do
+    expect(chef_run).to enable_service('redis-server')
+  end
+
+  it 'starts the redis service' do
+    expect(chef_run).to start_service('redis-server')
+  end
 end
